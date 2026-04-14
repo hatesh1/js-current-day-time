@@ -47,3 +47,12 @@ if (hour === 0 && prepand === ' AM ') {
 // Display the current time
 document.getElementById("time").innerHTML = "Current Time: " + hour + prepand + " : " + minute + " : " + second;
 console.log("Current Time: " + hour + prepand + " : " + minute + " : " + second); 
+
+
+
+// --------------------------------------
+
+// Function to print the current page
+function printCurrentPage() {
+    window.print();
+}
